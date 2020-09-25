@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="pyramid.js"></script>
+    <script>
+    </script>
+    <style>
+        .container { padding: 10; width: 600px; border: 1px solid #cccccc; }
+        .row { margin: 10px; width: 100%; }
+        .field { padding: 0.3em; }
+        .output { background-color: #f0f0f0; width: 92%; padding: 5px; }
+        .result { overflow: hidden; margin: 5px; vertical-align: middle; }
+        .result .success { color: rgb(0, 128, 0); }
+        .result .failed {color: rgb(128, 0, 0); }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <label class="field">Type a word to check as a pyramid word:</label>
+            <input id="checkInput" class="field inputWord" type="text" style="width: 200px;"></input>
+            <button id="checkBtn" class="field btnWord" type="button">Check</button>
+        </div>
+        <div class="row output">
+        </div>
+    </div>
+</body>
+</html>
